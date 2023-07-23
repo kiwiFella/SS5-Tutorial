@@ -26,12 +26,6 @@
             ".htaccess",
             "index.php",
             "web.config"
-        ],
-        "expose": [
-            "themes/one-ring/css",
-            "themes/one-ring/images",
-            "themes/one-ring/javascript",
-            "themes/one-ring/fonts"
         ]
     },
     "config": {
