@@ -24,7 +24,7 @@ I like to keep my css & js inside the theme directory - as this allows me to de-
 
 However if we are smart - we can keep the base/core css and js in the theme - and then include/point to specific files in the controller for specific pages - this way we can control different css/js to appear only on specific pages... eg. generally on the homepage will have a carousel image widget - which will have unique css & js - no point including this on every page!
 
-to include css & js in controller
+For more detail on how to include css & js in controller
 refer to [https://docs.silverstripe.org/en/5/developer_guides/templates/requirements/]
 ```php
     // Either
@@ -35,3 +35,8 @@ refer to [https://docs.silverstripe.org/en/5/developer_guides/templates/requirem
     Requirements::themedJavascript('script-name');
 ```
 
+
+
+
+
+--------------------------------------------

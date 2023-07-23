@@ -13,7 +13,7 @@ all:: readme
 readme::  *.md
 	pandoc \
 		 *.md \
-		--output README.md \
+		--output ${OUT_DIR}/README.md \
 		--template $(TOOL_DIR)/template/mdbook.md \
 		--from markdown \
 		--listings \

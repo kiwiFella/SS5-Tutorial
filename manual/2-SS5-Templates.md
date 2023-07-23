@@ -34,3 +34,11 @@ Templates have a bunch of standard $vars inherited from Page Class
 - <% base_tag %>
 - $Breadcrumbs
 - $AbsoluteBaseUrl
+
+
+
+
+
+
+
+--------------------------------------------

@@ -7,3 +7,4 @@
 /.graphql-generated/
 /public/_graphql/
 **/.DS_Store
+/manual/build/

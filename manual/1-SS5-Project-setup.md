@@ -20,6 +20,7 @@ add .env file to .gitiginore
 ## 1.3 - create theme folder
 create a new theme folder in themes
 include following folder structure
+```yml
 - themes
     - my-theme
         - css
@@ -29,8 +30,8 @@ include following folder structure
         - templates
             - Includes
             - Layout
-
-expose theme to public by adding the folowing into `composer.json`
+```
+`expose theme` to public dir by adding the folowing into `composer.json`
 ```yaml
 "extra": {
     "expose": [
@@ -43,7 +44,7 @@ expose theme to public by adding the folowing into `composer.json`
 ```
 ### NOTE:
 v3 & v4 Lessons suggest you can use any folder names inside theme folder and also reference the `themes/my-theme/css` ... this does NOT WORK FOR SS-5.
-in SS5 to use `$themedCSS` and `$themedJavascript` the themed folders MUST be called 'css' and 'javascript'
+in SS-5 to use `$themedCSS` and `$themedJavascript` the themed folders MUST be called 'css' and 'javascript'
 ... this process will be covered in the next 'Templates' chapter 
 
 
@@ -80,6 +81,4 @@ you should see your themed 'Hello World' page display (with no styling) instead 
 
 
 
-
-
-
+--------------------------------------------
